@@ -1,0 +1,14 @@
+---
+# Misha
+- The reincarnation of morsh with Mia's own personal lang!
+# Indexing and size
+- Misha should have an estimated index size of 88 (as in 88 different matches)
+- This is "slightly overkill", but works as follows;
+ -- The english alphabet has 26 letters
+ --- Instead of matching each letter to a single pattern
+ ---- Misha matches each 2 letter pair to a pattern (52)
+ -- Misha will also feature a single letter fallback index (78)
+ --- Plus the numbs 1 - 9 (87) along with a speical pattern for spaces (88)
+---
+# Obviously with 88 possible patterns Misha isn't meant to be memorized :p
+--- 
